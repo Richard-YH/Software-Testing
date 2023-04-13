@@ -14,8 +14,8 @@ options.add_argument('--headless')
 options.add_argument('--window-size=1920,1080')
 options.add_argument('--disable-gpu')
 driver_path = ChromeDriverManager().install()
-#driver = webdriver.Chrome(executable_path=driver_path, options=options)
-driver = webdriver.Chrome(executable_path=driver_path)
+driver = webdriver.Chrome(executable_path=driver_path, options=options)
+#driver = webdriver.Chrome(executable_path=driver_path)
 
 
 #Q2-1
