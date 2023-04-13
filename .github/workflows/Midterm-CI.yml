@@ -22,13 +22,13 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run Q1
         run: |
-          cd Midterm
+          
           python3 test_course_scheduling_system_test.py  -v 1>log.txt
           cat log.txt
           coverage run test_course_scheduling_system_test.py
           coverage report
       - name: Run Q2
         run: |
-          cd Midterm
+
           python3 app.py
       
