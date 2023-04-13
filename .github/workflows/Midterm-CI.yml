@@ -23,6 +23,7 @@ jobs:
       - name: Run Q1
         run: |
           cd Midterm/Part1
+          pwd
           python3 test_course_scheduling_system.py  -v 1>log.txt
           cat log.txt
           coverage run test_course_scheduling_system.py
@@ -30,5 +31,6 @@ jobs:
       - name: Run Q2
         run: |
           cd Midterm/Part2
+          pwd
           python3 app.py
       
