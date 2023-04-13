@@ -19,7 +19,7 @@ jobs:
         run: |
           cd Midterm
           python -m pip install --upgrade pip
-          python
+          python -m pip install coverage
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run Q1
         run: |
