@@ -29,7 +29,7 @@ driver.execute_script("arguments[0].value = 'zh-tw'; arguments[0].dispatchEvent(
 
 
 # Wait for page to load and language to change
-#sleep(10)
+sleep(10)
 
 
 print(f"[*] Print the title and first paragraph\n")
