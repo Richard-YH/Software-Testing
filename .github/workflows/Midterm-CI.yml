@@ -20,6 +20,7 @@ jobs:
           cd Midterm
           python -m pip install --upgrade pip
           python -m pip install coverage
+          python -m pip install selenium
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run Q1
         run: |
